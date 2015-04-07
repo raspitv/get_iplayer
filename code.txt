@@ -1,0 +1,5 @@
+sudo bash -c "cat > /etc/apt/sources.list.d/packages.hedgerows.org.uk.list <<EOF
+deb http://packages.hedgerows.org.uk/raspbian wheezy/
+deb-src http://packages.hedgerows.org.uk/raspbian wheezy/
+EOF
+"
